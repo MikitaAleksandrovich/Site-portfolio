@@ -1,0 +1,34 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: auto 15%;
+    text-decoration: none;
+}
+
+
+/* Header links section */
+
+.header__links {
+    text-align: right;
+    margin-top: 5%;
+}
+
+.fab {
+    color: black;
+    padding: 5px;
+}
+
+.fab:hover {
+    color: rgb(245, 131, 0);
+}
+
+@media (max-width: 720px) {
+
+    .header__links {
+        text-align: center;
+    }
+
+}
+
+
+
+
