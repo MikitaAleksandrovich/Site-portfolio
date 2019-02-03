@@ -2,6 +2,7 @@ body {
     font-family: 'Quicksand', sans-serif;
     margin: 0 12%;
     text-decoration: none;
+    text-align: center;
 }
 
 a:hover {
@@ -31,10 +32,11 @@ a:hover {
     -ms-transition: all.4s ease;
 }
 
-@media (max-width: 780px) {
+@media (max-width: 720px) {
+
     .header__links {
         text-align: center;
-    }
+    }  
 }
 
 
@@ -71,7 +73,7 @@ a:hover {
 
 .header__menu {
     text-align: center;
-    margin: 20px 0;
+    padding: 2% 0;
 }
 
 .menu {
@@ -92,6 +94,30 @@ a:hover {
     -webkit-transition: all.4s ease;
     -ms-transition: all.4s ease;
 }
+
+
+/* Home Images Section */
+
+.home__img {
+    margin: 2% 5%;
+    width: 100%;
+}
+
+.home__img:hover {
+    filter: brightness(0.7);
+    -moz-transition: all.4s ease;
+    -webkit-transition: all.4s ease;
+    -ms-transition: all.4s ease;
+}
+
+
+
+
+
+
+
+
+
 
 
 
