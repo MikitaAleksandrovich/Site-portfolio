@@ -36,6 +36,8 @@ a:hover {
 
     .header__links {
         text-align: center;
+        margin-bottom: 10%;
+        margin-top: 5%;
     }  
 }
 
@@ -105,10 +107,32 @@ a:hover {
 
 .home__img:hover {
     filter: brightness(0.7);
-    -moz-transition: all.4s ease;
-    -webkit-transition: all.4s ease;
-    -ms-transition: all.4s ease;
+    transition: all.6s ease;
+    -moz-transition: all.6s ease;
+    -webkit-transition: all.6s ease;
+    -ms-transition: all.6s ease;
 }
+
+
+/* Footer Section */
+
+footer {
+    padding: 40px 0 15px 0;
+}
+
+.footer_center {
+    color: black;
+    letter-spacing: 3px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.8em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+
+
+
 
 
 
