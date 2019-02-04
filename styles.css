@@ -124,10 +124,31 @@ footer {
     color: black;
     letter-spacing: 3px;
     font-family: 'Quicksand', sans-serif;
-    font-size: 0.8em;
+    font-size: 0.7rem;
     text-align: center;
     text-transform: uppercase;
 }
+
+
+/* Styles for pages with videos */
+
+.pages__logo { 
+    text-align: center;
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-size: 1em;
+    color: black;
+    font-family: 'Trykker', serif;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+}
+
+.pages__video {
+    text-align: center;
+    width: 740px;
+    height: 430px;
+}
+
 
 
 
