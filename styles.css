@@ -5,9 +5,25 @@ body {
     text-align: center;
 }
 
+
 a:hover {
     text-decoration: none;
     color: black;
+}
+
+
+/* Smooth Loading Of Pages */
+
+@-webkit-keyframes fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
+@-moz-keyframes    fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
+@-o-keyframes      fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
+@keyframes         fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
+ 
+body {
+  -webkit-animation: fade-in 2.5s; /* Safari 4+ */
+  -moz-animation: fade-in 2.5s; /* Fx 5+ */
+  -o-animation: fade-in 2.5s; /* Opera 12+ */
+  animation: fade-in 2.5s; /* IE 10+, Fx 29+ */
 }
 
 
