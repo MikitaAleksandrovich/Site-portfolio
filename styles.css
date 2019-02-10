@@ -99,16 +99,46 @@ a:hover {
 /* Home Images Section */
 
 .home__img {
-    padding: 15px 0;	
+    padding: 15px 0 0 0;	
     width: 100%;
+    display: block;
+    height: auto;
 }
 
-.home__img:hover {
-    filter: brightness(0.7);
-    transition: all.6s ease;
-    -moz-transition: all.6s ease;
-    -webkit-transition: all.6s ease;
-    -ms-transition: all.6s ease;
+.contain {
+    position: relative;
+  }
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .7s ease;
+  }
+
+.contain:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: #ffffff;
+    font-style: 'Quicksand', sans-serif;
+    font-size: 1.3rem;
+    position: absolute;
+    letter-spacing: 4px;
+    font-weight: 600;
+    width: 100%;
+    top: 70%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 
