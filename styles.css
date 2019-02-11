@@ -209,6 +209,8 @@ footer {
     padding-top: 80px;
 }
 
+.orange-focus:focus { border: 1px solid rgb(245, 131, 0);; !important; }
+
 .box1 {
     padding: 20px auto;
     color: rgb(245, 131, 0);
@@ -225,11 +227,11 @@ footer {
 .feedback .box2 form input {
     display: block;
     width: 100%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     padding: 5px 10% 5px 5px;
     font-family: 'Quicksand', sans-serif;
     font-size: 0.7em;
-    color: rgb(245, 131, 0);
+    color: black;
     clear: both;
     margin-bottom: 10px;
     background-color: #fff;
@@ -245,9 +247,9 @@ footer {
     background-color: #fff;
     font-family: 'Quicksand', sans-serif;
     letter-spacing: 2px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     margin-bottom: 10px;
-    color: rgb(245, 131, 0);
+    color: black;
     font-size: 0.7em;
     outline: none;
 }
@@ -260,6 +262,7 @@ footer {
     font-size: 0.9em;
     cursor: pointer;
     width: 120px;
+    border: 1px solid black;
     outline: none;
     margin-bottom: 80px;
 }
