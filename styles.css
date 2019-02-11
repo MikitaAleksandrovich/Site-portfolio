@@ -201,6 +201,74 @@ footer {
      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
    }
 
+
+
+/* Styles for Feedback page */
+
+.feedback {
+    padding-top: 120px;
+}
+
+.box1 {
+    padding: 20px auto;
+    color: rgb(245, 131, 0);
+    letter-spacing: 2.9px;
+    font-family: 'Trykker', serif;
+    font-size: 1.5rem;
+}
+
+.box2 {
+   text-align: center;
+   width: 100%;
+}
+
+.feedback .box2 form input {
+    display: block;
+    width: 100%;
+    border: 2px solid black;
+    padding: 5px 10% 5px 5px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.7em;
+    color: rgb(245, 131, 0);
+    clear: both;
+    margin-bottom: 10px;
+    background-color: #fff;
+    letter-spacing: 2px;
+    outline: none;
+}
+
+.feedback .box2 > form > textarea {
+    display: block;
+    height: 150px;
+    width: 100%;
+    padding: 5px 10% 5px 5px;
+    background-color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 2px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    color: rgb(245, 131, 0);
+    font-size: 0.7em;
+    outline: none;
+}
+
+.feedback .box2 > form #send {
+    padding: 10px;
+    background-color: white;
+    color: rgb(131, 131, 131);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.9em;
+    cursor: pointer;
+    width: 120px;
+    outline: none;
+    margin-bottom: 80px;
+}
+
+.feedback .box2 #send:hover {
+    background-color: rgb(245, 131, 0);
+    color: black;
+}
+
    
 
 
