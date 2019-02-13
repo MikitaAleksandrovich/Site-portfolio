@@ -276,6 +276,33 @@ footer {
     -ms-transition: all.4s ease;
 }
 
+
+
+/* Styles for AboutMe Section */
+
+.aboutme__img {
+    padding: 10px auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.aboutme__text {
+    text-align: center;
+    color: rgb(245, 131, 0);
+    letter-spacing: 2px;
+    font-family: 'Trykker', serif;
+    font-size: 1rem;
+ }
+
+.aboutme__img:hover {
+    border: 2px solid rgb(245, 131, 0);;
+}
+
+
+
+
+
    
 
 
