@@ -31,13 +31,3 @@ function addBorder () {
 
 addBorder();
 
-
-$('.send__btn').click(function () {
-    clearFields();
-});
-
-$(document).keypress(function (event) {
-    if (event.keyCode === 13 || event.which === 13) {
-        clearFields ();
-    }
-});  

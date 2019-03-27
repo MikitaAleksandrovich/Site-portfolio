@@ -160,7 +160,6 @@ body {
 
 
 /* Footer Section */
-
 footer {
     padding: 40px 0 15px 0;
 }
@@ -176,7 +175,6 @@ footer {
 
 
 /* Styles for pages with videos */
-
 .pages__logo { 
     text-align: center;
     margin-top: 40px;
@@ -192,8 +190,8 @@ footer {
     padding: 0 13%;
 }
 
-/* Change color of corousel's icons */
 
+/* Change color of corousel's icons */
 .carousel-control-prev-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
    }
@@ -205,7 +203,6 @@ footer {
 
 
 /* Styles for Feedback page */
-
 .feedback {
     padding-top: 80px;
 }
