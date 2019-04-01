@@ -296,6 +296,19 @@ footer {
     border: 2px solid rgb(245, 131, 0);;
 }
 
+/* Styles for ContactMe Page */
+.contact {
+    text-align: center;
+    width: 100%;
+    color: black;
+    letter-spacing: 2px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1rem;
+    margin-bottom: 120px;
+}
+
+
+
 
 
 
