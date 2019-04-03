@@ -298,8 +298,7 @@ footer {
 
 /* Styles for Prices Page */
 .prices__block {
-    padding: 5% 0 0 0;	
-    width: 100%;
+    padding: 6% 0 6% 0;	
     display: block;
     height: auto;
 }
@@ -317,21 +316,22 @@ footer {
 .prices__block > img {
     width: 100%;
     padding: 10px;
-    height: 210px;
+    height: 60%;
 }
 
 .prices__text {
     color: black;
     font-family: 'Quicksand', sans-serif;
-    font-size: 1rem;
-	padding: 10px 0 0 0;
+    font-size: 0.8rem;
+	padding: 10px 0 5px 0;
 	text-transform: lowercase;
 	letter-spacing: 2px;
 }
 
 .prices__contact {
-	padding: 10px 0 0 0;
+    font-size: 0.9rem;
 }
+
 
 
 
