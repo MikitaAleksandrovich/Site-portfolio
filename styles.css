@@ -314,6 +314,12 @@ footer {
 	text-transform: uppercase;
 }
 
+.prices__block > img {
+    width: 100%;
+    padding: 10px;
+    height: 210px;
+}
+
 .prices__text {
     color: black;
     font-family: 'Quicksand', sans-serif;
