@@ -30,7 +30,7 @@ body {
 /* Header Links Section */
 
 .top__section {
-    padding: 0;
+    margin-bottom: 30px;
 }
 
 .header__links {
@@ -63,7 +63,6 @@ body {
 
 
 /* Logo Section */
-
 .logo {
     margin: 3% auto;
     text-align: center;
@@ -92,7 +91,6 @@ body {
 
 
 /* Header menu Section */
-
 .menu {
     font-family: 'Quicksand', sans-serif;
     letter-spacing: 2.9px;
@@ -113,9 +111,8 @@ body {
 
 
 /* Home Images Section */
-
 .home__img {
-    padding: 15px 0 0 0;	
+    padding: 20px 0 0 0;	
     width: 100%;
     display: block;
     height: auto;
@@ -298,7 +295,7 @@ footer {
 
 /* Styles for Prices Page */
 .prices__block {
-    padding: 6% 0 6% 0;	
+    padding: 5% 2% 6% 2%;	
     display: block;
     height: auto;
 }
@@ -314,10 +311,9 @@ footer {
 }
 
 .prices__block > img {
-    width: 100%;
-    padding: 10px;
-    height: 60%;
+    width: 100%; 
 }
+
 
 .prices__text {
     color: black;
@@ -330,6 +326,11 @@ footer {
 
 .prices__contact {
     font-size: 0.9rem;
+}
+
+/* Styles for Contact Me Page */
+.contact {
+    padding-bottom: 14%;
 }
 
 
