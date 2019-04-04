@@ -6,9 +6,8 @@
     fields = $('#name' + ', ' + '#email' + ', ' + '#message');
 
     fieldsArr = Array.from(fields);
-    fieldsArr.forEach(function (current) {
+    fieldsArr.forEach(current => {
         current.value = "";
-
     });
 
     fieldsArr[0].focus();
@@ -30,4 +29,5 @@ function addBorder () {
 }
 
 addBorder();
+clearFields();
 
