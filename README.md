@@ -1,2 +1,3 @@
 # Site-portfolio-for-video-creator
-Create a responsive site portfolio for video editor
+Responsive site portfolio for video editor
+Use here bootstrap for responsiveness and soe js code
