@@ -295,7 +295,7 @@ footer {
 
 /* Styles for Prices Page */
 .prices__block {
-    padding: 5% 2% 6% 2%;	
+    padding: 7% 2% 6% 2%;	
     display: block;
     height: auto;
 }
@@ -314,7 +314,6 @@ footer {
     width: 100%; 
 }
 
-
 .prices__text {
     color: black;
     font-family: 'Quicksand', sans-serif;
@@ -328,10 +327,21 @@ footer {
     font-size: 0.9rem;
 }
 
+
 /* Styles for Contact Me Page */
-.contact {
-    padding-bottom: 14%;
+
+.contact__section {
+    padding: 7% 0 14% 0;
 }
+.contact {
+    padding: 7% 0 0 0;
+}
+
+.contact__text {
+    font-size: 1.1rem;
+}
+
+
 
 
 
