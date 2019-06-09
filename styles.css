@@ -329,17 +329,24 @@ footer {
 
 
 /* Styles for Contact Me Page */
-
 .contact__section {
-    padding: 7% 0 14% 0;
+    padding: 7% 0 14% 3%;
 }
+
 .contact {
     padding: 7% 0 0 0;
+    letter-spacing: 2px;
+}
+
+.contact a {
+    color: black;
 }
 
 .contact__text {
     font-size: 1.1rem;
 }
+
+
 
 
 
