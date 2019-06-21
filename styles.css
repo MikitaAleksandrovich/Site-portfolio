@@ -27,6 +27,29 @@ body {
 }
 
 
+/* Styles for the up button */
+#toTop {
+    width: 150px;
+    position: fixed;
+    bottom: 70px; 
+    right: 10px;
+    cursor: pointer;
+    display: none;
+    color: rgb(63, 63, 63);
+    font-size: 50px;
+}
+
+#toTop:hover {
+    color: rgb(131, 131, 131);
+}
+
+@media (max-width: 860px) {
+    #toTop{
+        right: -20px;
+    }
+}
+
+
 /* Header Links Section */
 
 .top__section {
@@ -243,7 +266,6 @@ footer {
     background-color: #fff;
     font-family: 'Quicksand', sans-serif;
     letter-spacing: 2px;
-    /* border: 2px solid black; */
     margin-bottom: 10px;
     color: black;
     font-size: 0.7em;
@@ -352,9 +374,6 @@ footer {
 .contact__text {
     font-size: 1.1rem;
 }
-
-
-
 
 
 
