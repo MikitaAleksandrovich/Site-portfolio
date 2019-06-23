@@ -27,6 +27,29 @@ body {
 }
 
 
+/* Styles for the up button */
+#toTop {
+    width: 150px;
+    position: fixed;
+    bottom: 70px; 
+    right: 10px;
+    cursor: pointer;
+    display: none;
+    color: rgb(63, 63, 63);
+    font-size: 50px;
+}
+
+#toTop:hover {
+    color: rgb(131, 131, 131);
+}
+
+@media (max-width: 860px) {
+    #toTop{
+        right: -20px;
+    }
+}
+
+
 /* Header Links Section */
 
 .top__section {
@@ -202,6 +225,7 @@ footer {
 /* Styles for Feedback page */
 .feedback {
     padding-top: 80px;
+	display: block;
 }
 
 .orange-focus:focus { border: 1px solid rgb(245, 131, 0);; !important; }
@@ -242,7 +266,6 @@ footer {
     background-color: #fff;
     font-family: 'Quicksand', sans-serif;
     letter-spacing: 2px;
-    /* border: 2px solid black; */
     margin-bottom: 10px;
     color: black;
     font-size: 0.7em;
@@ -269,6 +292,12 @@ footer {
     -moz-transition: all.4s ease;
     -webkit-transition: all.4s ease;
     -ms-transition: all.4s ease;
+}
+
+.thanks {
+	display: none;
+	padding-top: 10%;
+	margin-bottom: 25%;
 }
 
 
@@ -329,18 +358,22 @@ footer {
 
 
 /* Styles for Contact Me Page */
-
 .contact__section {
-    padding: 7% 0 14% 0;
+    padding: 7% 0 14% 3%;
 }
+
 .contact {
     padding: 7% 0 0 0;
+    letter-spacing: 2px;
+}
+
+.contact a {
+    color: black;
 }
 
 .contact__text {
     font-size: 1.1rem;
 }
-
 
 
 

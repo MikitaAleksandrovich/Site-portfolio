@@ -26,6 +26,25 @@ function addBorder () {
     });
 }
 
+document.querySelector('.send__btn').addEventListener('click', addThanks);
+
+document.addEventListener('keypress', function (event) {
+    if (event.keyCode === 13 || event.which === 13) {
+        addThanks();
+      }
+});  
+
+
+function addThanks() {
+     document.querySelector('.feedback').style.display = 'none';
+	 document.querySelector('.thanks').style.display = 'block';
+}
+
+
 addBorder();
-clearFields();
+<<<<<<< HEAD
+addThanks();
+=======
+
+>>>>>>> 2ae5a709e2489a9b5a70833deab5321e29af38d3
 
