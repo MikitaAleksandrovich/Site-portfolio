@@ -42,9 +42,5 @@ function addThanks() {
 
 
 addBorder();
-<<<<<<< HEAD
 addThanks();
-=======
-
->>>>>>> 2ae5a709e2489a9b5a70833deab5321e29af38d3
 
