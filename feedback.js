@@ -1,23 +1,27 @@
  
-  function clearFields () {
+//   function clearFields ()  {
     
-    let fields, fieldsArr;
+//     var fields, fieldsArr;
 
-    fields = $('#name' + ', ' + '#email' + ', ' + '#message');
+//     fields = $('#name' + ', ' + '#email' + ', ' + '#message');
 
-    fieldsArr = Array.from(fields);
-    fieldsArr.forEach( current => { current.value = "" } );
+//     fieldsArr = Array.from(fields);
+//     fieldsArr.forEach(function (current) {
+//         current.value = "";
 
-    fieldsArr[0].focus();
-}
+//     });
 
-
-function addThanks() {
-     document.querySelector('.feedback').style.display = 'none';
-	 document.querySelector('.thanks').style.display = 'block';
-}
+//     fieldsArr[0].focus();
+// }
 
 
-addBorder();
-addThanks();
 
+$('.send__btn').click(function () {
+    clearFields();
+});
+
+$(document).keypress(function (event) {
+    if (event.keyCode === 13 || event.which === 13) {
+        clearFields ();
+    }
+});  

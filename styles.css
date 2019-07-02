@@ -38,33 +38,10 @@ body {
 }
 
 
-/* Styles for the up button */
-#toTop {
-    width: 150px;
-    position: fixed;
-    bottom: 70px; 
-    right: 10px;
-    cursor: pointer;
-    display: none;
-    color: rgb(63, 63, 63);
-    font-size: 50px;
-}
-
-#toTop:hover {
-    color: rgb(131, 131, 131);
-}
-
-@media (max-width: 860px) {
-    #toTop{
-        right: -20px;
-    }
-}
-
-
 /* Header Links Section */
 
 .top__section {
-    margin-bottom: 30px;
+    padding: 0;
 }
 
 .header__links {
@@ -97,6 +74,7 @@ body {
 
 
 /* Logo Section */
+
 .logo {
     margin: 3% auto;
     text-align: center;
@@ -125,6 +103,7 @@ body {
 
 
 /* Header menu Section */
+
 .menu {
     font-family: 'Quicksand', sans-serif;
     letter-spacing: 2.9px;
@@ -145,8 +124,9 @@ body {
 
 
 /* Home Images Section */
+
 .home__img {
-    padding: 20px 0 0 0;	
+    padding: 15px 0 0 0;	
     width: 100%;
     display: block;
     height: auto;
@@ -154,7 +134,7 @@ body {
 
 .contain {
     position: relative;
-}
+  }
 
 .overlay {
     position: absolute;
@@ -191,6 +171,7 @@ body {
 
 
 /* Footer Section */
+
 footer {
     padding: 40px 0 15px 0;
 }
@@ -206,6 +187,7 @@ footer {
 
 
 /* Styles for pages with videos */
+
 .pages__logo { 
     text-align: center;
     margin-top: 40px;
@@ -221,8 +203,8 @@ footer {
     padding: 0 13%;
 }
 
-
 /* Change color of corousel's icons */
+
 .carousel-control-prev-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
    }
@@ -234,9 +216,9 @@ footer {
 
 
 /* Styles for Feedback page */
+
 .feedback {
     padding-top: 80px;
-	display: block;
 }
 
 
@@ -276,6 +258,7 @@ footer {
     background-color: #fff;
     font-family: 'Quicksand', sans-serif;
     letter-spacing: 2px;
+    /* border: 2px solid black; */
     margin-bottom: 10px;
     color: black;
     font-size: 0.7em;
@@ -304,14 +287,10 @@ footer {
     -ms-transition: all.4s ease;
 }
 
-.thanks {
-	display: none;
-	padding-top: 10%;
-	margin-bottom: 25%;
-}
 
 
-/* Styles for AboutMe Page */
+/* Styles for AboutMe Section */
+
 .aboutme__img {
     padding: 10px auto;
     width: 250px;
@@ -331,62 +310,6 @@ footer {
 .aboutme__img:hover {
     border: 2px solid rgb(245, 131, 0);;
 }
-
-/* Styles for Prices Page */
-.prices__block {
-    padding: 7% 2% 6% 2%;	
-    display: block;
-    height: auto;
-}
-
-.prices__header {
-	text-align: center;
-    color: rgb(245, 131, 0);
-    letter-spacing: 3px;
-    font-family: 'Trykker', serif;
-    font-size: 1rem;
-	padding-bottom: 10px;
-	text-transform: uppercase;
-}
-
-.prices__block > img {
-    width: 100%; 
-}
-
-.prices__text {
-    color: black;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 0.8rem;
-	padding: 10px 0 5px 0;
-	text-transform: lowercase;
-	letter-spacing: 2px;
-}
-
-.prices__contact {
-    font-size: 0.9rem;
-}
-
-
-/* Styles for Contact Me Page */
-.contact__section {
-    padding: 7% 0 14% 3%;
-}
-
-.contact {
-    padding: 7% 0 0 0;
-    letter-spacing: 2px;
-}
-
-.contact a {
-    color: black;
-}
-
-.contact__text {
-    font-size: 1.1rem;
-}
-
-
-
 
 
 
