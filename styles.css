@@ -11,6 +11,17 @@ a:hover {
     color: black;
 }
 
+#name:focus {
+	border: 1px solid rgb(245, 131, 0);
+}
+
+#email:focus {
+	border: 1px solid rgb(245, 131, 0);
+}
+
+#message:focus {
+	border: 1px solid rgb(245, 131, 0);
+}
 
 /* Smooth Loading Of Pages */
 
@@ -228,7 +239,6 @@ footer {
 	display: block;
 }
 
-.orange-focus:focus { border: 1px solid rgb(245, 131, 0);; !important; }
 
 .box1 {
     padding: 20px auto;

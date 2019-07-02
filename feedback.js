@@ -11,29 +11,6 @@
     fieldsArr[0].focus();
 }
 
-function addBorder () {
-
-    let nodeListForEach = (list, callback) => {
-        for (var i = 0; i < list.length; i++) {
-            callback(list[i], i);
-        }
-    };
-
-    fields = $('#name' + ', ' + '#email' + ', ' + '#message');
-
-    nodeListForEach(fields, current => {
-        current.classList.toggle('orange-focus');
-    });
-}
-
-document.querySelector('.send__btn').addEventListener('click', addThanks);
-
-document.addEventListener('keypress', function (event) {
-    if (event.keyCode === 13 || event.which === 13) {
-        addThanks();
-      }
-});  
-
 
 function addThanks() {
      document.querySelector('.feedback').style.display = 'none';
