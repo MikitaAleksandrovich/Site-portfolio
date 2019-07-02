@@ -11,21 +11,13 @@
     fieldsArr[0].focus();
 }
 
-function addBorder () {
 
-    let nodeListForEach = (list, callback) => {
-        for (var i = 0; i < list.length; i++) {
-            callback(list[i], i);
-        }
-    };
-
-    fields = $('#name' + ', ' + '#email' + ', ' + '#message');
-
-    nodeListForEach(fields, current => {
-        current.classList.toggle('orange-focus');
-    });
+function addThanks() {
+     document.querySelector('.feedback').style.display = 'none';
+	 document.querySelector('.thanks').style.display = 'block';
 }
 
+
 addBorder();
-clearFields();
+addThanks();
 
